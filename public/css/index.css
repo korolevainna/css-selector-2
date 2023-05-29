@@ -1,1 +1,99 @@
+.lesson-four-task-one button:hover {
+	color: red;
+	background: yellow;
+}
+
+.lesson-four-task-two .link:hover + .title {
+	background: green;
+}
+
+.link:visited {
+	color: yellow;
+}
+
+
+#link::target-text {
+	color: red;
+}
+
+.button:active {
+	color: blue;
+}
+
+input.button:focus {
+	color: orange;
+	background: orange;
+}
+
+#target:target {
+	color: white;
+	background: green;
+}
+
+.lesson-four-task-eight .input-checkbox:checked {
+	color: white;
+	background-color: blue;
+}
+
+.lesson-four-task-nine:lang(uk) {
+	color: blue;
+}
+
+.lesson-four-task-nine:lang(en) {
+	color: blue;
+}
+
+input {
+	background-color: yellow;
+}
+
+.lesson-four-task-ten input:enabled {
+	color: red;
+	background-color: yellow;
+}
+
+.lesson-four-task-eleven input:disabled {
+	background-color: yellow;
+}
+
+.lesson-four-task-twelve input:read-write {
+	background-color: yellow;
+}
+
+.lesson-four-task-thirteen input:read-only {
+	background-color: yellow;
+}
+
+
+.lesson-four-task-fourteen input:valid {
+	background-color: green;
+}
+
+.lesson-four-task-fourteen input:invalid {
+		background-color: red;
+}
+
+.lesson-four-task-fifteen input:optional {
+	background-color: red;
+}
+
+.lesson-four-task-sixteen .bg-secondary:out-of-range {
+	background-color: red;
+}
+
+.lesson-four-task-seventeen .bg-secondary:in-range {
+	color: red;
+}
+
+.lesson-four-task-eighteen .placeholder:placeholder-shown {
+	background-color: red;
+}
+
+.lesson-four-task-nineteen button:focus-within {
+	color: white;
+	background-color: yellowgreen;
+}
+
+
+
 

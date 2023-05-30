@@ -7,20 +7,20 @@
 	background: green;
 }
 
-.link:visited {
+.lesson-four-task-three .link:visited {
 	color: yellow;
 }
 
 
-#link::target-text {
+.lesson-four-task-four #link::target-text {
 	color: red;
 }
 
-.button:active {
+.lesson-four-task-five .button:active {
 	color: blue;
 }
 
-input.button:focus {
+.lesson-four-task-six input.button:focus {
 	color: orange;
 	background: orange;
 }
@@ -30,7 +30,7 @@ input.button:focus {
 	background: green;
 }
 
-.lesson-four-task-eight .input-checkbox:checked {
+.lesson-four-task-eight .input-checkbox :checked {
 	color: white;
 	background-color: blue;
 }
@@ -78,7 +78,7 @@ input {
 }
 
 .lesson-four-task-sixteen .bg-secondary:out-of-range {
-	background-color: red;
+	color: red;
 }
 
 .lesson-four-task-seventeen .bg-secondary:in-range {
@@ -92,6 +92,10 @@ input {
 .lesson-four-task-nineteen button:focus-within {
 	color: white;
 	background-color: yellowgreen;
+}
+
+.lesson-four-task-twenty input:invalid {
+	background-color: red;
 }
 
 
